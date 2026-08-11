@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respuesta del Servidor</title>
+    <link rel="stylesheet" href="css/respuesta.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Respuesta del Servidor</h1>
+        
+        <div class="header-info">
+            <p>
+                <strong>Metodo utilizado:</strong> 
+                <span id="metodoUsado" class="metodo-usado">---</span>
+            </p>
+            <p>
+                <strong>Estado:</strong> 
+                <span id="estadoPeticion" class="metodo-usado">Procesando...</span>
+            </p>
+        </div>
+        
+        <div id="respuestaContainer" class="respuesta-container">
+            <div id="datosRespuesta">
+                <p class="sin-datos">Cargando datos de la respuesta...</p>
+            </div>
+        </div>
+        
+        <details class="detalles-tecnicos">
+            <summary>Ver detalles tecnicos de la respuesta</summary>
+            <pre id="detalleJSON">No disponible</pre>
+        </details>
+        
+        <div style="text-align: center;">
+            <a href="index.html" class="btn-volver">Volver al formulario</a>
+        </div>
+    </div>
+    
+    <script type="module" src="js/respuesta.js"></script>
+</body>
+</html>

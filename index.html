@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FORMULARIO PARA HTTP</h1>
+                
+        <form id="formulario">
+            <div class="form-group">
+                <label for="nombreUsuario">Nombre del usuario:</label>
+                <input type="text" id="nombreUsuario" name="nombreUsuario" 
+                       placeholder="Ej: Juan Perez" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="correoUsuario">Correo electronico:</label>
+                <input type="text" id="correoUsuario" name="correoUsuario" 
+                       placeholder="Ej: juan@ejemplo.com" required>
+            </div>
+            
+            <div class="metodos-container">
+                <button type="submit" class="btn-metodo btn-post" id="btnPost">
+                    METODO POST
+                </button>
+                <button type="button" class="btn-metodo btn-put" id="btnPut">
+                    METODO PUT
+                </button>
+                <button type="button" class="btn-metodo btn-patch" id="btnPatch">
+                    METODO PATCH
+                </button>
+                <button type="button" class="btn-metodo btn-delete" id="btnDelete">
+                    METODO DELETE
+                </button>
+            </div>
+            
+            <input type="hidden" id="metodoSeleccionado" name="metodo" value="POST">
+        </form>
+    </div>
+    
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
