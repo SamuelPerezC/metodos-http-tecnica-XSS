@@ -1,0 +1,93 @@
+body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .header-info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #2196F3;
+        }
+        .metodo-usado {
+            font-weight: bold;
+            color: #1976D2;
+        }
+        .respuesta-container {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border: 1px solid #e0e0e0;
+        }
+        .campo {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+        }
+        .campo label {
+            font-weight: bold;
+            color: #555;
+            display: inline-block;
+            min-width: 120px;
+        }
+        .campo .valor {
+            color: #333;
+            word-break: break-all;
+        }
+        .seguridad-info {
+            margin-top: 30px;
+            padding: 15px;
+            background: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+            border-radius: 5px;
+        }
+        .seguridad-info h3 {
+            margin-top: 0;
+            color: #2e7d32;
+        }
+        .btn-volver {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .btn-volver:hover {
+            background: #45a049;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .badge-exito { background: #4CAF50; color: white; }
+        .badge-info { background: #2196F3; color: white; }
+        .badge-advertencia { background: #FF9800; color: white; }
+        .badge-peligro { background: #f44336; color: white; }
+        .sin-datos {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
